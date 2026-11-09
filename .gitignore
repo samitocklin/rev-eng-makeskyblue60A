@@ -1,0 +1,61 @@
+# ---------- KiCad ----------
+# Auto-backups / autosave / locks (git is the backup)
+*-backups/
+_autosave-*
+\#auto_saved_files\#
+~*.lck
+*.lck
+fp-info-cache
+*-cache.lib
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-save.kicad_pcb
+*-save.pro
+_saved_*
+*.bck
+*.tmp
+*~
+
+# Per-user view state (open sheets, layer visibility, zoom)
+*.kicad_prl
+
+# Plot / fab output (regenerate from the board)
+gerbers/
+production/
+fabrication/
+*.gbrjob
+
+# Local scratch backups of edited files
+*.bak
+*.bak-*
+*.before-*
+*.hermes-orig
+
+# Vendor datasheets: local only (copyright); links in Datasheets/SOURCES.md
+Datasheets/*
+!Datasheets/SOURCES.md
+
+# ---------- ESP-IDF firmware ----------
+replacement_esp32_firmware/build/
+replacement_esp32_firmware/managed_components/
+replacement_esp32_firmware/sdkconfig
+replacement_esp32_firmware/sdkconfig.old
+replacement_esp32_firmware/.cache/
+compile_commands.json
+
+# ---------- Python (tools/) ----------
+__pycache__/
+*.py[cod]
+.venv/
+
+# ---------- macOS / editors ----------
+.DS_Store
+._*
+.AppleDouble
+.Spotlight-V100
+.Trashes
+.idea/
+*.swp
+# Finder/iCloud duplicate copies ("file 2.c", "sdkconfig 3")
+* [2-9]
+* [2-9].*

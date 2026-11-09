@@ -1,0 +1,20 @@
+menu "MSB60 firmware"
+
+config MSB_POWER_STAGE_ENABLE
+    bool "Allow PWM on the buck gate driver (DANGEROUS until hardware is verified)"
+    default n
+    help
+        When disabled, the charge state machine and MPPT run in dry-run mode:
+        the duty is computed and shown, but GATE_B stays low.
+
+config MSB_LOAD_OUTPUT_ENABLE
+    bool "Allow driving the load output switch"
+    default n
+
+config MSB_PWM_FREQ_HZ
+    int "Buck PWM frequency (Hz)"
+    default 40000
+    range 10000 80000
+    depends on MSB_POWER_STAGE_ENABLE
+
+endmenu

@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NUC120VE3DN_LQFP100")(type "KiCad")(uri "${KIPRJMOD}/NUC120VE3DN_LQFP100.kicad_sym")(options "")(descr ""))
+  (lib (name "NUC029LAN")(type "KiCad")(uri "${KIPRJMOD}/NUC029LAN.kicad_sym")(options "")(descr "Nuvoton NUC029LAN, LQFP-48 (the MCU on the MakeSkyBlue 60A board)"))
+  (lib (name "RS8551")(type "KiCad")(uri "${KIPRJMOD}/RS8551.kicad_sym")(options "")(descr "Runic RS8551 zero-drift op amp, SOT23-5"))
+  (lib (name "TLP350")(type "KiCad")(uri "${KIPRJMOD}/TLP350.kicad_sym")(options "")(descr "Toshiba TLP350/TLP350F gate-drive photocoupler, DIP-8"))
+  (lib (name "HY1920")(type "KiCad")(uri "${KIPRJMOD}/HY1920.kicad_sym")(options "")(descr "HUAYI HY1920W 200V 90A N-MOSFET, TO-247"))
+)
